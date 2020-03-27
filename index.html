@@ -4,15 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Meta Facebook -->
+    <meta property="og:title" content="Primer Proyecto Elías Mendoza" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eliasrmendozar.github.io/Proyecto1/" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/eliasrmendozar/Proyecto1/master/img/header.jpg" />
+
+    <!-- Meta Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@eliasr.mendozar">
+    <meta name="twitter:creator" content="@eliasr.mendozar">
+    <meta name="twitter:title" content="Primer Proyecto Elías Mendoza">
+    <meta name="twitter:description" content="Primer Proyecto de CodiGo Blended">
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+      
+        return t;
+      }(document, "script", "twitter-wjs"));</script>
 
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0"></script>
     <header>
-        <div class="fb-share-button" data-href="https://jmontes50.github.io/opengraph/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjmontes50.github.io%2Fopengraph%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
-
+    <div class="redes">
+    <!-- Botón Facebook -->
+    <div class="fb-share-button" data-href="https://eliasrmendozar.github.io/Proyecto1/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feliasrmendozar.github.io%2FProyecto1%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+    <!-- Botón Twitter -->
+    <a class="twitter-share-button"
+    href="https://twitter.com/intent/tweet"
+    data-size="large"
+    data-text="custom share text"
+    data-url="https://dev.twitter.com/web/tweet-button"
+    data-hashtags="example,demo"
+    data-via="twitterdev"
+    data-related="twitterapi,twitter">
+    Tweet</a>
+    </div>
     </header>
     <main>
+        
 
     </main>
     <footer>
